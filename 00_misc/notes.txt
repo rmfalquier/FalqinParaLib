@@ -1,0 +1,4 @@
+TODO:
+- Comment the example notebook (succint)
+- ReadMe
+- Publish in channels

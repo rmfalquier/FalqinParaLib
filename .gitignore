@@ -1,5 +1,9 @@
+# Misc Project Information
+/misc/
+/00_proto_notebooks/
+
 # Data
-# /data/
+/data/
 
 # Mac OS-specific storage files
 .DS_Store
