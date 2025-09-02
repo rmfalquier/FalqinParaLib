@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 
 class falqin:
     """
-    Falcon-quality IGC (gliding) parser and analyzer.
+    Falcon-quality IGC (paragliding) parser and analyzer.
 
     This class parses one IGC file—or all *.IGC files in a folder—into
     derived flight time series (ground speed, heading, climb rates, etc.),
@@ -34,7 +34,7 @@ class falqin:
     Attributes
     ----------
     file : str
-        Current file path being parsed (updates when iterating a folder).
+        Current file path being parsed (auto-updates when provided a path to a folder with the corresponding boolean).
     avg_window : int
         Rolling window length.
     speed_bins : np.ndarray
